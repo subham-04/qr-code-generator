@@ -9,7 +9,7 @@ btn.addEventListener('click',()=>{
     if(txt_val===""){
         alert('Put Url or Text in the input field');
     }else{
-        let url = `https://quickchart.io/qr?text=${txt_val}&dark=751fff&ecLevel=H&size=500`;
+        let url = `https://quickchart.io/qr?text=${txt_val}&dark=751fff&ecLevel=H&size=350`;
         qr.src = url;
         qr.style.visibility="visible";
     }
